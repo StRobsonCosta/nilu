@@ -1,4 +1,10 @@
 package com.kavex.nilu.dto;
 
-public record RelatorioFinanceiroDto() {
+import java.math.BigDecimal;
+
+public record RelatorioFinanceiroDto(
+        String nomeCostureira,
+        BigDecimal totalReceitaGerada,
+        BigDecimal totalPagoEmComissoes
+) {
 }

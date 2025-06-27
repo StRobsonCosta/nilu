@@ -1,4 +1,5 @@
 package com.kavex.nilu.dto;
 
-public record AtualizaEtapaRequest() {
-}
+import com.kavex.nilu.domain.model.EtapaAjuste;
+
+public record AtualizaEtapaRequest(EtapaAjuste etapa) {}
