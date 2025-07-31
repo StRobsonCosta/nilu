@@ -24,8 +24,8 @@ resource "aws_lambda_function" "api_lambda" {
   handler       = "org.springframework.cloud.function.adapter.aws.FunctionInvoker::handleRequest"
   runtime       = "java17"
 
-  filename         = "../../target/esteira-costura-1.0.0.jar"
-  source_code_hash = filebase64sha256("../../target/esteira-costura-1.0.0.jar")
+  filename         = "../../target/nilu-1.0.0.jar"
+  source_code_hash = filebase64sha256("../../target/nilu-1.0.0.jar")
 
   environment {
     variables = {
