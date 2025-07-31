@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "project_name" {
-  default = "esteira-costura"
+  default = "nilu"
 }
 
 variable "db_username" {
